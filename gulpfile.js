@@ -14,8 +14,12 @@ function getTask(task) {
 }
 
 const scripts   = getTask('scripts');
+const styles    = getTask('styles');
 
 gulp.task('scripts', scripts );
+gulp.task('styles', styles );
+
+gulp.task('build', gulp.parallel(scripts, styles ));
 
 gulp.task('plugins', function () {
 	return new Promise(function (resolve, reject) {

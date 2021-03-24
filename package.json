@@ -13,7 +13,10 @@
 	"license": "GPL-2.0",
 	"author": "Envira Gallery Team",
 	"scripts": {
-		"scripts": "./node_modules/.bin/gulp scripts"
+		"scripts": "./node_modules/.bin/gulp scripts",
+		"build": "./node_modules/.bin/gulp build",
+		"styles": "./node_modules/.bin/gulp styles"
+
 	},
 	"dependencies": {
 		"@babel/cli": "^7.10.4",
