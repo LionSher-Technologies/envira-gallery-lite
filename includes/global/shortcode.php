@@ -218,9 +218,9 @@ class Envira_Gallery_Shortcode {
         wp_enqueue_script( $this->base->plugin_slug . '-script' );
         // If lazy load is active, load the lazy load script
         if ( $this->get_config( 'lazy_loading', $data ) == 1 ) {
-            wp_localize_script( $this->base->plugin_slug . '-script', 'envira_lazy_load', 'true');
-            wp_localize_script( $this->base->plugin_slug . '-script', 'envira_lazy_load_initial', 'false');
-            wp_localize_script( $this->base->plugin_slug . '-script', 'envira_lazy_load_delay', (string) $lazy_loading_delay);
+            wp_localize_script( $this->base->plugin_slug . '-script', 'envira_lazy_load', array( 'true' ) );
+            wp_localize_script( $this->base->plugin_slug . '-script', 'envira_lazy_load_initial', array( 'false' ) );
+            wp_localize_script( $this->base->plugin_slug . '-script', 'envira_lazy_load_delay', array( (string) $lazy_loading_delay ) );
         }
 
         // Load custom gallery themes if necessary.
