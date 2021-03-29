@@ -95,7 +95,7 @@ class Envira_Gallery_Lite {
 		// Load the plugin textdomain.
 		add_action( 'plugins_loaded', array( $this, 'load_plugin_textdomain' ) );
 
-		// Load the plugin.
+		// Load the plugin formally.
 		add_action( 'init', array( $this, 'init' ), 0 );
 
 		if ( ! defined( 'ENVIRA_VERSION' ) ) {
