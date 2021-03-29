@@ -214,7 +214,7 @@ Yes, Envira has full translation and localization support via the envira-gallery
 * Fixed: PHP 8 related notices.
 
 1.8.3.3
-	
+
 * Fixed: Improving metadata sanitization.
 
 1.8.3.2
@@ -236,7 +236,7 @@ Yes, Envira has full translation and localization support via the envira-gallery
 * Updated: Recent News On Welcome Screen.
 * Updated: Links On What's New Screen.
 
-1.8.1
+1.8.1.0
 
 * Added: envira_gallery_output_item_src_retina filter.
 * Added: envira_gallery_title_display filter.
