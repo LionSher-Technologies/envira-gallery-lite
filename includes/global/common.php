@@ -647,7 +647,7 @@ class Envira_Gallery_Common {
         $supported_file_types = array(
             array(
                 'title'     => __( 'Image Files', 'envira-gallery-lite' ),
-                'extensions'=> 'jpg,jpeg,jpe,gif,png,bmp,tif,tiff,JPG,JPEG,JPE,GIF,PNG,BMP,TIF,TIFF',
+                'extensions'=> 'jpg,jpeg,jpe,gif,png,bmp,tif,tiff,JPG,JPEG,JPE,GIF,PNG,BMP,TIF,TIFF,webp,WEBP',
             ),
         );
 
@@ -675,6 +675,7 @@ class Envira_Gallery_Common {
             'image/bmp',
             'image/tif',
             'image/tiff',
+            'image/webp',
         );
 
         // Allow Developers and Addons to filter the supported file types

@@ -75,7 +75,7 @@ class Envira_Gallery_Shortcode {
 	public $gallery_data = array();
 	public $common;
     public $is_mobile;
-    
+
 	public $wp_kses_allowed_html = array(
 		'a'      => array(
 			'href'                => array(),
@@ -2027,7 +2027,7 @@ class Envira_Gallery_Shortcode {
 
         $extension = strtolower( trim( substr( $url, $p ) ) );
 
-        $img_extensions = array('.gif', '.jpg', '.jpeg', '.png', '.tiff', '.tif');
+        $img_extensions = array('.gif', '.jpg', '.jpeg', '.png', '.tiff', '.tif', '.webp');
 
         if ( in_array( $extension, $img_extensions ) ){
 
