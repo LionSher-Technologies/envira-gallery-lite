@@ -1,6 +1,9 @@
 
 == Changelog ==
 
+1.8.3.5
+* Updated: Expired Marketing Offer
+
 1.8.3.4
 
 * Updated: Promotional messages.
