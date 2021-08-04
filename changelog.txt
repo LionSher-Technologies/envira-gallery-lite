@@ -1,6 +1,9 @@
 
 == Changelog ==
 
+1.8.3.6
+* Updated: Removed Addtional Marketing Copy
+
 1.8.3.5
 * Updated: Expired Marketing Offer
 
