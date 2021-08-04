@@ -67,7 +67,7 @@ class Envira_Lite_Promotion {
 		add_action( 'admin_notices', array( $this, 'promotion' ) );
 		add_action( 'wp_ajax_envira_dismiss_promotion', array( $this, 'dismiss_promotion' ) );
 		add_filter( 'admin_footer_text',     array( $this, 'admin_footer'   ), 1, 2 );
-	
+
 	}
 
 	/**
@@ -152,24 +152,7 @@ class Envira_Lite_Promotion {
 
 			// We have a candidate! Output a promotion message.
 			?>
-			<div class="notice notice-info is-dismissible envira-promotion-notice">
-				<p><strong><a href="<?php echo Envira_Gallery_Common_Admin::get_instance()->get_upgrade_link( "https://enviragallery.com/lite/", "lifetimealert", "lifetimelink", "" ); ?>"><?php _e( 'Upgrade to a premium Envira Gallery subscription for 50% off now!', 'envira-gallery-lite' );?></a></strong><?php _e( ' — a limited-time offer! — and get access to addons, updates, and technical support!', 'envira-gallery-lite' );?></p>
-			</div>
-			<script type="text/javascript">
-				jQuery(document).ready( function($) {
-					$(document).on('click', '.envira-dismiss-promotion-notice, .envira-promotion-notice button', function( event ) {
-						if ( ! $(this).hasClass('envira-promotion-out') ) {
-							event.preventDefault();
-						}
 
-						$.post( ajaxurl, {
-							action: 'envira_dismiss_promotion'
-						});
-
-						$('.envira-promotion-notice').remove();
-					});
-				});
-			</script>
 
 		<?php
 
