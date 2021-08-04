@@ -210,7 +210,8 @@ Yes, Envira has full translation and localization support via the envira-gallery
 
 1.8.3.6
 
-* Updated: Removed Addtional Marketing Copy
+* Updated: Removed Additional Marketing Copy
+* Added: WebP Support
 
 1.8.3.5
 
