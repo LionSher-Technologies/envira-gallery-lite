@@ -208,6 +208,10 @@ Yes, Envira has full translation and localization support via the envira-gallery
 
 == Changelog ==
 
+1.8.3.7
+
+* Fixed: Issue regarding lightbox and uploaded WebP images.
+
 1.8.3.6
 
 * Updated: Removed Additional Marketing Copy
