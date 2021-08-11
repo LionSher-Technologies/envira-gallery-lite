@@ -6,7 +6,7 @@
         G = {}, y = [],
         f = null,
         o = new Image(),
-        i = /\.(jpg|gif|png|bmp|jpeg)(.*)?$/i,
+        i = /\.(jpg|gif|png|bmp|jpeg|webp)(.*)?$/i,
         k = /[^\.]\.(swf)\s*$/i,
         p, N = 1,
         h = 0,
