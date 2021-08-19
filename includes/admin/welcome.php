@@ -1354,9 +1354,6 @@ class Envira_Welcome {
 						<a href="<?php echo Envira_Gallery_Common_Admin::get_instance()->get_upgrade_link( false, 'litevsprotab', 'getenviragalleryprotoday' ); ?>" target="_blank" rel="noopener noreferrer">Get Envira Pro Today and Unlock all the Powerful Features					</a>
 					</h3>
 
-						<p>
-							<strong>Bonus:</strong> Envira Lite users get <span class="envira-deal 20-percent-off">50% off regular price</span>, using the code in the link above.
-						</p>
 					</div>
 				</div>
 
